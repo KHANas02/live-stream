@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact with us</title>
+    <link rel="stylesheet" href="./index.html">
+    <style></style>
+</head>
+<body>
+    <div id="wrapper1">
+  <input type="checkbox" id="darkMode">
+  <label for="darkMode"><span class="material-icons-outlined">brightness_medium</span></label>
+  <div class="innerWrapper">
+    <input type="radio" id="first" name="screen">
+    <label for="first"><span class="material-icons">
+        grade
+      </span><br />Favorites</label>
+    <input type="radio" id="second" name="screen" checked>
+    <label for="second"><span class="material-icons">
+        watch_later
+      </span><br />Recents</label>
+    <input type="radio" id="third" name="screen">
+    <label for="third"><span class="material-icons">
+        account_circle
+      </span><br />Contacts</label>
+    <input type="radio" id="forth" name="screen">
+    <label for="forth"><span class="material-icons">
+        apps
+      </span>
+      <br />Keypad
+    </label>
+    <div id="screenWrapper">
+      <div class="screen">
+        <div class="vFlex spacing">
+          <div class="hFlex centerMe sticky showLabels">
+            <div class="buttonLabel"><span class="material-icons">add</span></div>
+            <div class="buttonLabel"></div>
+          </div>
+          <input type="checkbox" id="editCheck_01" class="editCheck">
+          <label for="editCheck_01">
+            <div class="buttonLabel"></div>
+          </label>
+          <div class="screenTitle">Favorites</div>
+
+          <div class="newContact">
+            <input type="checkbox" class="deleteCheck" id="fav_01">
+            <label for="fav_01"><span class="material-icons-outlined">remove_circle</span></label>
+            <div class="contact hFlex">
+              <div class="innerContact">
+                <div class="contactName">Home</div>
+                <div class="contactType"></div>
+              </div>
+              <div class="spacer"></div>
+              <div class="time"></div>
+              <span class="material-icons-outlined">info</span>
+            </div>
+          </div>
+
+          <div class="newContact">
+            <input type="checkbox" class="deleteCheck" id="fav_02">
+            <label for="fav_02"><span class="material-icons-outlined">remove_circle</span></label>
+            <div class="contact hFlex">
+              <div class="innerContact">
+                <div class="contactName">Wifey 💕</div>
+                <div class="contactType"></div>
+              </div>
+              <div class="spacer"></div>
+              <div class="time"></div>
+              <span class="material-icons-outlined">info</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="screen">
+        <div class="vFlex spacing">
+          <div class="hFlex centerMe sticky roundMe">
+            <div class="spacer"></div>
+            <div class="buttonLabel"></div>
+          </div>
+          <input type="checkbox" id="editCheck_02" class="editCheck">
+          <label for="editCheck_02">
+            <div class="buttonLabel"></div>
+          </label>
+          <div class="screenTitle">Recents</div>
+          <input type="checkbox" id="missedCalls">
+          <label id="missedLabel" for="missedCalls">
+            <div class="indicator"></div>
+            <div>All</div>
+            <div>Missed</div>
+          </label>
+
+          <div class="newContact">
+            <input type="checkbox" class="deleteCheck" id="contact_01">
+            <label for="contact_01"><span class="material-icons-outlined">remove_circle</span></label>
+            <div class="contact hFlex">
+              <div class="innerContact">
+                <div class="contactName">Adir SL</div>
+                <div class="contactType"></div>
+              </div>
+              <div class="spacer"></div>
+              <div class="time">15:46</div>
+              <span class="material-icons-outlined">info</span>
+            </div>
+          </div>
+
+          <div class="newContact">
+            <input type="checkbox" class="deleteCheck" id="contact_02">
+            <label for="contact_02"><span class="material-icons-outlined">remove_circle</span></label>
+            <div class="contact hFlex missed">
+              <div class="innerContact">
+                <div class="contactName">Yakov Levi</div>
+                <div class="contactType"></div>
+              </div>
+              <div class="spacer"></div>
+              <div class="time">12:32</div>
+              <span class="material-icons-outlined">info</span>
+            </div>
+          </div>
+
+          <div class="newContact">
+            <input type="checkbox" class="deleteCheck" id="contact_03">
+            <label for="contact_03"><span class="material-icons-outlined">remove_circle</span></label>
+            <div class="contact hFlex">
+              <div class="innerContact">
+                <div class="contactName">Inbar</div>
+                <div class="contactType"></div>
+              </div>
+              <div class="spacer"></div>
+              <div class="time">12:28</div>
+              <span class="material-icons-outlined">info</span>
+            </div>
+          </div>
+
+          <div class="newContact">
+            <input type="checkbox" class="deleteCheck" id="contact_04">
+            <label for="contact_04"><span class="material-icons-outlined">remove_circle</span></label>
+            <div class="contact hFlex">
+              <div class="innerContact">
+                <div class="contactName">Eddie</div>
+                <div class="contactType"></div>
+              </div>
+              <div class="spacer"></div>
+              <div class="time">11:41</div>
+              <span class="material-icons-outlined">info</span>
+            </div>
+          </div>
+
+          <div class="newContact">
+            <input type="checkbox" class="deleteCheck" id="contact_05">
+            <label for="contact_05"><span class="material-icons-outlined">remove_circle</span></label>
+            <div class="contact hFlex missed">
+              <div class="innerContact">
+                <div class="contactName">Shmulik</div>
+                <div class="contactType"></div>
+              </div>
+              <div class="spacer"></div>
+              <div class="time">10:53</div>
+              <span class="material-icons-outlined">info</span>
+            </div>
+          </div>
+
+          <div class="newContact">
+            <input type="checkbox" class="deleteCheck" id="contact_06">
+            <label for="contact_06"><span class="material-icons-outlined">remove_circle</span></label>
+            <div class="contact hFlex">
+              <div class="innerContact">
+                <div class="contactName">Naama</div>
+                <div class="contactType"></div>
+              </div>
+              <div class="spacer"></div>
+              <div class="time">10:48</div>
+              <span class="material-icons-outlined">info</span>
+            </div>
+          </div>
+
+          <div class="newContact">
+            <input type="checkbox" class="deleteCheck" id="contact_07">
+            <label for="contact_07"><span class="material-icons-outlined">remove_circle</span></label>
+            <div class="contact hFlex">
+              <div class="innerContact">
+                <div class="contactName">Debbie Jones</div>
+                <div class="contactType"></div>
+              </div>
+              <div class="spacer"></div>
+              <div class="time">10:11</div>
+              <span class="material-icons-outlined">info</span>
+            </div>
+          </div>
+
+          <div class="newContact">
+            <input type="checkbox" class="deleteCheck" id="contact_08">
+            <label for="contact_08"><span class="material-icons-outlined">remove_circle</span></label>
+            <div class="contact hFlex missed">
+              <div class="innerContact">
+                <div class="contactName">David</div>
+                <div class="contactType"></div>
+              </div>
+              <div class="spacer"></div>
+              <div class="time">9:56</div>
+              <span class="material-icons-outlined">info</span>
+            </div>
+          </div>
+
+          <div class="newContact">
+            <input type="checkbox" class="deleteCheck" id="contact_09">
+            <label for="contact_09"><span class="material-icons-outlined">remove_circle</span></label>
+            <div class="contact hFlex">
+              <div class="innerContact">
+                <div class="contactName">Naama</div>
+                <div class="contactType"></div>
+              </div>
+              <div class="spacer"></div>
+              <div class="time">8:36</div>
+              <span class="material-icons-outlined">info</span>
+            </div>
+          </div>
+
+          <div class="newContact">
+            <input type="checkbox" class="deleteCheck" id="contact_10">
+            <label for="contact_10"><span class="material-icons-outlined">remove_circle</span></label>
+            <div class="contact hFlex">
+              <div class="innerContact">
+                <div class="contactName">Chris</div>
+                <div class="contactType"></div>
+              </div>
+              <div class="spacer"></div>
+              <div class="time">8:14</div>
+              <span class="material-icons-outlined">info</span>
+            </div>
+          </div>
+
+          <div class="newContact">
+            <input type="checkbox" class="deleteCheck" id="contact_11">
+            <label for="contact_11"><span class="material-icons-outlined">remove_circle</span></label>
+            <div class="contact hFlex missed">
+              <div class="innerContact">
+                <div class="contactName">Johnathan</div>
+                <div class="contactType"></div>
+              </div>
+              <div class="spacer"></div>
+              <div class="time">8:09</div>
+              <span class="material-icons-outlined">info</span>
+            </div>
+          </div>
+
+          <div class="newContact">
+            <input type="checkbox" class="deleteCheck" id="contact_12">
+            <label for="contact_12"><span class="material-icons-outlined">remove_circle</span></label>
+            <div class="contact hFlex">
+              <div class="innerContact">
+                <div class="contactName">Paul</div>
+                <div class="contactType"></div>
+              </div>
+              <div class="spacer"></div>
+              <div class="time">Yesterday</div>
+              <span class="material-icons-outlined">info</span>
+            </div>
+          </div>
+
+          <div class="newContact">
+            <input type="checkbox" class="deleteCheck" id="contact_13">
+            <label for="contact_13"><span class="material-icons-outlined">remove_circle</span></label>
+            <div class="contact hFlex">
+              <div class="innerContact">
+                <div class="contactName">Kody</div>
+                <div class="contactType"></div>
+              </div>
+              <div class="spacer"></div>
+              <div class="time">Yesterday</div>
+              <span class="material-icons-outlined">info</span>
+            </div>
+          </div>
+
+          <div class="newContact">
+            <input type="checkbox" class="deleteCheck" id="contact_14">
+            <label for="contact_14"><span class="material-icons-outlined">remove_circle</span></label>
+            <div class="contact hFlex missed">
+              <div class="innerContact">
+                <div class="contactName">Vernon</div>
+                <div class="contactType"></div>
+              </div>
+              <div class="spacer"></div>
+              <div class="time">Yesterday</div>
+              <span class="material-icons-outlined">info</span>
+            </div>
+          </div>
+
+          <div class="newContact">
+            <input type="checkbox" class="deleteCheck" id="contact_15">
+            <label for="contact_15"><span class="material-icons-outlined">remove_circle</span></label>
+            <div class="contact hFlex">
+              <div class="innerContact">
+                <div class="contactName">Victor</div>
+                <div class="contactType"></div>
+              </div>
+              <div class="spacer"></div>
+              <div class="time">Yesterday</div>
+              <span class="material-icons-outlined">info</span>
+            </div>
+          </div>
+
+          <div class="newContact">
+            <input type="checkbox" class="deleteCheck" id="contact_16">
+            <label for="contact_16"><span class="material-icons-outlined">remove_circle</span></label>
+            <div class="contact hFlex">
+              <div class="innerContact">
+                <div class="contactName">Kassandra</div>
+                <div class="contactType"></div>
+              </div>
+              <div class="spacer"></div>
+              <div class="time">Yesterday</div>
+              <span class="material-icons-outlined">info</span>
+            </div>
+          </div>
+
+          <div class="newContact">
+            <input type="checkbox" class="deleteCheck" id="contact_17">
+            <label for="contact_17"><span class="material-icons-outlined">remove_circle</span></label>
+            <div class="contact hFlex missed">
+              <div class="innerContact">
+                <div class="contactName">Adam</div>
+                <div class="contactType"></div>
+              </div>
+              <div class="spacer"></div>
+              <div class="time">Yesterday</div>
+              <span class="material-icons-outlined">info</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="screen">
+        <div class="vFlex">
+          <div class="hFlex centerMe sticky showLabels roundLess">
+            <div class="buttonLabel">Groups</div>
+            <div class="buttonLabel"><span class="material-icons">add</span></div>
+          </div>
+          <div class="screenTitle">Contacts</div>
+          <div class="contactRow letterStick">A</div>
+          <div class="contactRow">Adir SL</div>
+          <div class="contactRow">Adam</div>
+          <div class="contactRow">Adrain</div>
+          <div class="contactRow">Adel</div>
+          <div class="contactRow">Adler</div>
+          <div class="contactRow">Afflek Ben</div>
+          <div class="contactRow">Agatha</div>
+          <div class="contactRow">Amnnon</div>
+          <div class="contactRow">Albert</div>
+          <div class="contactRow">Alberto</div>
+          <div class="contactRow">Alex Orange</div>
+          <div class="contactRow">Alexey</div>
+          <div class="contactRow">Alice Wonder</div>
+          <div class="contactRow">Ari the King</div>
+          <div class="contactRow letterStick">B</div>
+          <div class="contactRow">Bailey J.</div>
+          <div class="contactRow">Bea</div>
+          <div class="contactRow">Beatrice</div>
+          <div class="contactRow">Bella</div>
+          <div class="contactRow">Ben Levi</div>
+          <div class="contactRow">Benny H.</div>
+          <div class="contactRow">Betty</div>
+          <div class="contactRow">Billy</div>
+          <div class="contactRow">Boaz</div>
+          <div class="contactRow">Bob</div>
+          <div class="contactRow">Bobby</div>
+          <div class="contactRow">Bonnie</div>
+          <div class="contactRow">Blake</div>
+          <div class="contactRow">Brad</div>
+          <div class="contactRow">Bradley</div>
+          <div class="contactRow">Brody</div>
+          <div class="contactRow">Brooke</div>
+          <div class="contactRow">Brooklyn</div>
+          <div class="contactRow letterStick">C</div>
+          <div class="contactRow">Cali</div>
+          <div class="contactRow">Carmen</div>
+          <div class="contactRow">Cathy</div>
+          <div class="contactRow">Charlie</div>
+          <div class="contactRow">Chandler</div>
+          <div class="contactRow">Cora</div>
+          <div class="contactRow">Coraline</div>
+          <div class="contactRow letterStick">D</div>
+          <div class="contactRow">Dan</div>
+          <div class="contactRow">Dana</div>
+          <div class="contactRow">Dafna</div>
+          <div class="contactRow">David</div>
+          <div class="contactRow">Debbie Jones</div>
+          <div class="contactRow">Dekel</div>
+          <div class="contactRow">Destiny</div>
+          <div class="contactRow">Diana</div>
+          <div class="contactRow">Dora</div>
+          <div class="contactRow">Dorothy</div>
+          <div class="contactRow">Dylan</div>
+          <div class="contactRow letterStick">E</div>
+          <div class="contactRow">Eddie</div>
+          <div class="contactRow">Eden</div>
+          <div class="contactRow">Edri</div>
+          <div class="contactRow">Efrat</div>
+          <div class="contactRow">Ehud</div>
+          <div class="contactRow">Eli</div>
+          <div class="contactRow">Elia</div>
+          <div class="contactRow">Ella</div>
+          <div class="contactRow">Eran</div>
+          <div class="contactRow">Erez</div>
+          <div class="contactRow">Evegeni</div>
+          <div class="contactRow letterStick">F</div>
+          <div class="contactRow">Faruk</div>
+          <div class="contactRow">Freddy</div>
+          <div class="contactRow">Filin</div>
+          <div class="contactRow">Frankie</div>
+          <div class="contactRow">Frida</div>
+          <div class="contactRow letterStick">G</div>
+          <div class="contactRow">Gadi</div>
+          <div class="contactRow">Galit</div>
+          <div class="contactRow">George</div>
+          <div class="contactRow">Georgia</div>
+          <div class="contactRow">Genna</div>
+          <div class="contactRow">Gia</div>
+          <div class="contactRow">Gil</div>
+          <div class="contactRow">Gilad</div>
+          <div class="contactRow">Gwen</div>
+          <div class="contactRow letterStick">H</div>
+          <div class="contactRow">Hadas</div>
+          <div class="contactRow">Hailey</div>
+          <div class="contactRow">Haim</div>
+          <div class="contactRow">Hagar</div>
+          <div class="contactRow">Harel</div>
+          <div class="contactRow">Harley</div>
+          <div class="contactRow letterStick">I</div>
+          <div class="contactRow">Ido</div>
+          <div class="contactRow">Illya</div>
+          <div class="contactRow">Inbal</div>
+          <div class="contactRow">Igor</div>
+          <div class="contactRow">Insurance</div>
+          <div class="contactRow letterStick">J</div>
+          <div class="contactRow">Jim</div>
+          <div class="contactRow">Jimminy</div>
+          <div class="contactRow">Joanna</div>
+          <div class="contactRow">Joey</div>
+          <div class="contactRow">John</div>
+          <div class="contactRow">Johnnathan</div>
+          <div class="contactRow letterStick">K</div>
+          <div class="contactRow">Kailey</div>
+          <div class="contactRow">Kate</div>
+          <div class="contactRow">Kali</div>
+          <div class="contactRow">Karen</div>
+          <div class="contactRow">Katya</div>
+          <div class="contactRow">Keren</div>
+          <div class="contactRow letterStick">L</div>
+          <div class="contactRow">Leo</div>
+          <div class="contactRow">Lia</div>
+          <div class="contactRow">Liat</div>
+          <div class="contactRow">Lior</div>
+          <div class="contactRow">Limor</div>
+          <div class="contactRow">Liran</div>
+          <div class="contactRow letterStick">M</div>
+          <div class="contactRow">Maayan</div>
+          <div class="contactRow">Maya</div>
+          <div class="contactRow">Merry</div>
+          <div class="contactRow">Mia</div>
+          <div class="contactRow">Mila</div>
+          <div class="contactRow">Monica</div>
+          <div class="contactRow">Mom</div>
+          <div class="contactRow letterStick">N</div>
+          <div class="contactRow">Naama</div>
+          <div class="contactRow">Netta</div>
+          <div class="contactRow">Nicole</div>
+          <div class="contactRow">Nicolas</div>
+          <div class="contactRow">Noa</div>
+          <div class="contactRow">Noga</div>
+          <div class="contactRow">Nurit</div>
+          <div class="contactRow letterStick">O</div>
+          <div class="contactRow">Oded</div>
+          <div class="contactRow">Olive</div>
+          <div class="contactRow">Olga</div>
+          <div class="contactRow">Ophir</div>
+          <div class="contactRow">Ophelia</div>
+          <div class="contactRow letterStick">P</div>
+          <div class="contactRow">Paula</div>
+          <div class="contactRow">Philip</div>
+          <div class="contactRow">Phoebe</div>
+          <div class="contactRow">Pops</div>
+          <div class="contactRow letterStick">Q</div>
+          <div class="contactRow">Quentin</div>
+          <div class="contactRow">Quinn</div>
+          <div class="contactRow letterStick">R</div>
+          <div class="contactRow">Rachel</div>
+          <div class="contactRow">Rafi</div>
+          <div class="contactRow">Raz</div>
+          <div class="contactRow">Ron</div>
+          <div class="contactRow">Ronnie</div>
+          <div class="contactRow">Ross</div>
+          <div class="contactRow">Rotem</div>
+          <div class="contactRow letterStick">S</div>
+          <div class="contactRow">Shai</div>
+          <div class="contactRow">Shani</div>
+          <div class="contactRow">Shir</div>
+          <div class="contactRow">Shlomit</div>
+          <div class="contactRow">Shmulik</div>
+          <div class="contactRow">Sussan</div>
+          <div class="contactRow letterStick">T</div>
+          <div class="contactRow">Tal</div>
+          <div class="contactRow">Talia</div>
+          <div class="contactRow">Tamar</div>
+          <div class="contactRow">Tamuz</div>
+          <div class="contactRow">Tom</div>
+          <div class="contactRow">Tsurit</div>
+          <div class="contactRow letterStick">U</div>
+          <div class="contactRow">Uri</div>
+          <div class="contactRow">Uria</div>
+          <div class="contactRow">Uzi</div>
+          <div class="contactRow letterStick">V</div>
+          <div class="contactRow">Vered</div>
+          <div class="contactRow">Victoria</div>
+          <div class="contactRow">Viki</div>
+          <div class="contactRow">Vlad</div>
+          <div class="contactRow letterStick">W</div>
+          <div class="contactRow">Wolf</div>
+          <div class="contactRow">Wolfson</div>
+          <div class="contactRow">Willy</div>
+          <div class="contactRow letterStick">X</div>
+          <div class="contactRow">Xander</div>
+          <div class="contactRow">Xavier</div>
+          <div class="contactRow letterStick">Y</div>
+          <div class="contactRow">Yair</div>
+          <div class="contactRow">Yakov Levi</div>
+          <div class="contactRow">Yariv</div>
+          <div class="contactRow">Yaron</div>
+          <div class="contactRow">Yehuda</div>
+          <div class="contactRow">Yossy</div>
+          <div class="contactRow letterStick">Z</div>
+          <div class="contactRow">Zack</div>
+          <div class="contactRow">Zion</div>
+          <div class="contactRow almostLast">Zohar</div>
+          <div class="contactRow lastRow"></div>
+        </div>
+      </div>
+      <div class="screen">
+        <div class="vFlex numWrapper">
+          <div class="hFlex">
+            <div class="numBtn vFlex noText" numValue="1" letterValue="ABC">
+              <div>1</div>
+              <div class="letterNum">ABC</div>
+            </div>
+            <div class="numBtn vFlex" numValue="2" letterValue="ABC">
+              <div>2</div>
+              <div class="letterNum">ABC</div>
+            </div>
+            <div class="numBtn vFlex" numValue="3" letterValue="DEF">
+              <div>3</div>
+              <div class="letterNum">ABC</div>
+            </div>
+          </div>
+          <div class="hFlex">
+            <div class="numBtn vFlex" numValue="4" letterValue="GHI">
+              <div>4</div>
+              <div class="letterNum">ABC</div>
+            </div>
+            <div class="numBtn vFlex" numValue="5" letterValue="JKL">
+              <div>5</div>
+              <div class="letterNum">ABC</div>
+            </div>
+            <div class="numBtn vFlex" numValue="6" letterValue="MNO">
+              <div>6</div>
+              <div class="letterNum">ABC</div>
+            </div>
+          </div>
+          <div class="hFlex">
+            <div class="numBtn vFlex" numValue="7" letterValue="PQRS">
+              <div>7</div>
+              <div class="letterNum">ABC</div>
+            </div>
+            <div class="numBtn vFlex" numValue="8" letterValue="TUV">
+              <div>8</div>
+              <div class="letterNum">ABC</div>
+            </div>
+            <div class="numBtn vFlex" numValue="9" letterValue="WXYZ">
+              <div>9</div>
+              <div class="letterNum">ABC</div>
+            </div>
+          </div>
+          <div class="hFlex">
+            <div class="numBtn vFlex noText moreSpace" numValue="*" letterValue="ABC">
+              <div>*</div>
+              <div class="letterNum">ABC</div>
+            </div>
+            <div class="numBtn vFlex" numValue="0" letterValue="+">
+              <div>0</div>
+              <div class="letterNum">ABC</div>
+            </div>
+            <div class="numBtn_vFlex_noText" numValue="#" letterValue="ABC">
+              <div>#</div>
+              <div class="letterNum">ABC</div>
+            </div>
+          </div>
+          <div class="hFlex">
+            <div class="spacer"></div>
+            <div class="numBtn vFlex iconBtn">
+              <span class="material-icons">call</span>
+            </div>
+            <div class="spacer"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
