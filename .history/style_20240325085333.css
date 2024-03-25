@@ -170,12 +170,9 @@ body {
     }
   }
 }
-.teach {
+.teach{
   font-size: 50px;
-  font-weight: 200px;
-  text-align: center;
-  position: relative;
-  top: 100px;
+  font-weight: ;
 }
 
 /* background-color: lightgrey; */
